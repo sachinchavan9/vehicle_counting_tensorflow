@@ -1,5 +1,5 @@
 # VEHICLE DETECTION, TRACKING AND COUNTING
-This sample project focuses on "Vechicle Detection, Tracking and Counting" using [TensorFlow Object Counting API](https://github.com/ahmetozlu/tensorflow_object_counting_api). 
+This sample project focuses on "Vechicle Detection, Tracking and Counting" using [**TensorFlow Object Counting API**](https://github.com/ahmetozlu/tensorflow_object_counting_api). 
 
 ---
 
@@ -19,10 +19,10 @@ This sample project focuses on "Vechicle Detection, Tracking and Counting" using
 
 ## General Capabilities of This Sample Project
 
-This sample project has more than just counting vehicles, here are the additional capabilities of it;
+This sample project has more than just counting vehicles, here are the additional capabilities of it:
 
 - Recognition of approximate vehicle color
-- Detection of vehicle's direction of travel
+- Detection of vehicle direction of travel
 - Prediction the speed of the vehicle
 - Prediction of approximate vehicle size
 - **The images of detected vehicles are cropped from video frame and they are saved as new images under "[detected_vehicles](https://github.com/ahmetozlu/vehicle_counting_tensorflow/tree/master/detected_vehicles)" folder path**
@@ -57,7 +57,7 @@ Source video is read frame by frame with OpenCV. Each frames is processed by ["S
 ### Model
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/41813283-79528968-773b-11e8-8069-0494cd59a813.png" | width=700>
+  <img src="https://user-images.githubusercontent.com/22610163/48481757-b1d5a900-e81f-11e8-824b-4317115fe5b4.png">
 </p>
 
 By default I use an ["SSD with Mobilenet" model](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2017_11_17) in this project. You can find more information about SSD in [here](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab). See the [detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) for a list of other models that can be run out-of-the-box with varying speeds and accuracies.
